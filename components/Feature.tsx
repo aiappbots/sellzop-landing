@@ -18,19 +18,19 @@ const features = [
 	{
 		name: "Real Time Product Chat",
 		description:
-			"A real-time chat option on individual products to help you increase your stores customer service and engagement.",
+			"A real-time chat option for products to help you increase your store's customer service and engagement.",
 		icon: ChatBubbleLeftRightIcon,
 	},
 	{
 		name: "Built-in SEO and social media optimization tools.",
 		description:
-			"Which make it easier for potential customers to find your store and products online. We also have an AI product editor that creates compelling product descriptions to help you showcase your offerings and drive sales.",
+			"AI-powered SEO to make it easier for potential customers to find your store and products online.",
 		icon: BoltIcon,
 	},
 	{
 		name: "Multi-Language Support",
 		description:
-			"Sell in any laguage,  increase sales to a greater audience all over the world.",
+			"Sell in any language to increase sales for a greater audience, all over the world.",
 		icon: LifebuoyIcon,
 	},
 ];
@@ -47,9 +47,8 @@ export default function Feature() {
 						An easier way to sell products and cars online.
 					</p>
 					<p className='mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600'>
-						Our e-commerce platform is a comprehensive online store builder
-						marketing tool that saves you time to easily build and scale your
-						on-line business.
+						Our e-commerce platform is a comprehensive online store builder that
+						allows you to sell products and cars.
 					</p>
 				</div>
 
