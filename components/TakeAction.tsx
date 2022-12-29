@@ -97,7 +97,12 @@ export default function TakeAction() {
 									succeed in selling products and cars online.
 								</p>
 							</div>
-							<form action='#' className='mt-12 sm:mx-auto sm:flex sm:max-w-lg'>
+							{/* 
+                            <form action="https://formsubmit.co/your@email.com" method="POST"> */}
+							<form
+								action='https://formsubmit.co/robertromulus3@gmail.com'
+								method='POST'
+								className='mt-12 sm:mx-auto sm:flex sm:max-w-lg'>
 								<div className='min-w-0 flex-1'>
 									<label htmlFor='cta-email' className='sr-only'>
 										Email address
@@ -105,6 +110,8 @@ export default function TakeAction() {
 									<input
 										id='cta-email'
 										type='email'
+										name='email'
+										required
 										className='block w-full rounded-md border border-transparent px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600'
 										placeholder='Enter your email'
 									/>

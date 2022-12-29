@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import logo from "../public/new_logo.webp";
+// import kwesforms from "kwesforms";
 
 const navigation: any = [
 	// { name: "About", href: "#" },
