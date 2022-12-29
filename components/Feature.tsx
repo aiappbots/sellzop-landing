@@ -28,7 +28,7 @@ const features = [
 		icon: BoltIcon,
 	},
 	{
-		name: "Multi-Language anf Payment Support",
+		name: "Multi-Language and Payment Support",
 		description:
 			"Sell in any language and currency to increase sales for a greater audience, all over the world.",
 		icon: LifebuoyIcon,
