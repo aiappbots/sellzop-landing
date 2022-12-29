@@ -97,11 +97,10 @@ export default function TakeAction() {
 									succeed in selling products and cars online.
 								</p>
 							</div>
-							{/* 
-                            <form action="https://formsubmit.co/your@email.com" method="POST"> */}
+
 							<form
 								className='mt-12 sm:mx-auto sm:flex sm:max-w-lg'
-								action='https://formsubmit.co/el/mucoha'
+								action='https://formsubmit.co/robrtromulus3@gmail.com'
 								method='POST'>
 								<div className='min-w-0 flex-1'>
 									<label htmlFor='cta-email' className='sr-only'>
