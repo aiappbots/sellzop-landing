@@ -18,7 +18,13 @@ export default function Header() {
 					<div className='flex items-center'>
 						<a href='#'>
 							<span className='sr-only'>SellZop</span>
-							<Image className='h-6' width='100' src={logo} alt='logo' />
+							<Image
+								className='h-4'
+								width='110'
+								height='40'
+								src={logo}
+								alt='logo'
+							/>
 						</a>
 						<div className='ml-10 hidden space-x-8 lg:block'>
 							{navigation.map((link: any) => (
