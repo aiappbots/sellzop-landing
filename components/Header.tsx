@@ -25,7 +25,7 @@ export default function Header() {
 								width='110'
 								height='40'
 								src={logo}
-								alt='logo'
+								alt='The Logo'
 							/>
 						</a>
 						<div className='ml-10 hidden space-x-8 lg:block'>
