@@ -16,17 +16,27 @@ export default function Header() {
 	return (
 		<header className='bg-gray-800 m-0'>
 			<nav className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8' aria-label='Top'>
-				<div className='flex w-full items-center justify-between border-b border-indigo-500 py-6 lg:border-none'>
+				<div className=' flex w-full items-center justify-between border-b border-indigo-500 py-6 lg:border-none'>
 					<div className='flex items-center'>
-						<a href='#'>
+						<a href=''>
 							<span className='sr-only'>SellZop</span>
-							<Image
-								className='h-4'
-								width='110'
-								height='40'
-								src={logo}
-								alt='SellZop Change'
-							/>
+
+							<div className='flex  '>
+								<Image
+									className='  ml-30'
+									width={70}
+									height={30}
+									src={icon2}
+									alt={"logo"}
+								/>
+								<Image
+									className='h-4  space-x-4'
+									width='110'
+									height='40'
+									src={logo}
+									alt='SellZop Change'
+								/>
+							</div>
 						</a>
 						<div className='ml-10 hidden space-x-8 lg:block'>
 							{navigation.map((link: any) => (
