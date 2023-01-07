@@ -100,7 +100,7 @@ export default function TakeAction() {
 
 							<form
 								className='mt-12 sm:mx-auto sm:flex sm:max-w-lg'
-								action='https://formsubmit.co/robert@sellzop'
+								action='https://formsubmit.co/robert@sellzop.com'
 								method='POST'>
 								<div className='min-w-0 flex-1'>
 									<label htmlFor='cta-email' className='sr-only'>
